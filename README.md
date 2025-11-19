@@ -45,6 +45,11 @@ $con=new mysqli('localhost','root','','perfume_shop');
 
 The project is organized as follows:
 
+## Project Structure
+
+The project is organized as follows:
+
+```
 project/
 ├── index.php             # Homepage
 ├── shop.php              # Product listing page
@@ -61,5 +66,5 @@ project/
 ├── signin.css            # Sign-in specific styles
 ├── signup.css            # Sign-up specific styles
 ├── assets/               # General images (logo, icons, featured products)
-└── shop-pics/            # Product images
+└── shop-pics/            # Product images```
 
