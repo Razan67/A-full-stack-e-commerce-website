@@ -1,0 +1,214 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+header {
+  text-align: center;
+  background-color: #800020;
+  padding: 20px 0;
+  color: #fff;
+}
+
+header .tit {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+
+}
+
+header nav ul li {
+  display: inline;
+  margin: 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header hr{
+  border: 0;
+  border-top: 2px solid #fff;
+  width: 50%;
+  margin: 10px auto;
+}
+
+
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  background-color: #ffffff;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin: 100px 350px 100px 250px;
+  width: 500px;
+  height: 300px;
+}
+
+.form-header {
+  text-align: center;
+  color: #800020;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.sign-in-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #800020;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.sign-in-btn:hover {
+  background-color: #600016;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #800020; 
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+  margin-top: 80px;
+ 
+}
+
+footer p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/* Responsive Styles */
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+  header .tit {
+    font-size: 2.5em;
+  }
+
+  .form-container {
+    width: 450px;
+  }
+
+  .form-header {
+    font-size: 1.4em;
+  }
+
+  .sign-in-btn {
+    font-size: 1em;
+  }
+}
+
+/* For screens 992px and below (Tablets) */
+@media (max-width: 992px) {
+  header nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header hr {
+    width: 80%;
+  }
+
+  .form-container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+  }
+
+  .form-header {
+    font-size: 1.3em;
+  }
+
+  .sign-in-btn {
+    font-size: 0.9em;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
+}
+
+/* For screens 768px and below (Mobile devices) */
+@media (max-width: 768px) {
+  header .tit {
+    font-size: 2em;
+  }
+
+  .form-container {
+    width: 90%;
+    margin: 60px auto;
+    padding: 30px;
+  }
+
+  .form-header {
+    font-size: 1.2em;
+  }
+
+  .sign-in-btn {
+    font-size: 0.9em;
+  }
+
+  footer {
+    padding: 15px 0;
+    font-size: 0.7em;
+  }
+}
+
+/* For screens 400px and below (Small Mobile devices) */
+@media (max-width: 400px) {
+  header .tit {
+    font-size: 1.5em;
+  }
+
+  .form-container {
+    width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  .form-header {
+    font-size: 1em;
+  }
+
+  .sign-in-btn {
+    font-size: 0.8em;
+  }
+
+  footer {
+    padding: 10px 0;
+    font-size: 0.6em;
+  }
+}

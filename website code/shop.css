@@ -1,0 +1,504 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #800020;
+  padding: 20px 0;
+  color: #fff;
+}
+
+header .tit {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+
+}
+
+header nav ul li {
+  display: inline;
+  margin: 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+header hr{
+  border: 0;
+  border-top: 2px solid #fff;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.column {
+  float: left;
+  width: 25%; 
+  padding: 5px;
+}
+
+
+
+.column img {
+  width: 100%; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.product {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+}
+
+.product-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.product-info h3 {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+.product-info p {
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.product-info .add-to-cart {
+  background-color: #800020;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.product-info .add-to-cart:hover {
+  background-color: #a00028;
+}
+
+
+
+.available h2,
+.unisex h2,
+.women h2,
+.men h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  margin: 40px 0 25px 20px;
+  color: #800020;
+  border-left: 5px solid #800020;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+/* about page styling css */
+
+
+
+#about {
+  background-color: #fff;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+
+.text-content h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.image-content {
+  flex: 1;
+  text-align: center;
+}
+
+.image-content img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-content .est {
+  margin-top: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  color: #333;
+}
+
+
+
+
+/* contact page styling  */
+
+#contact {
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-info {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.contact-info h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+  color: #800020;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.contact-form h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #800020;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #a00028;
+}
+
+
+
+.cartContainer{
+  display: flex;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+#root{
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.sidebar{
+width: 40%;
+border-radius: 5px;
+background-color: #eee;
+margin-left: 20px;
+padding: 15px;
+text-align: center;
+
+}
+
+.head{
+
+  background-color: #800020;
+  border-radius: 3px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+}
+
+.foot{
+  display: flex;
+  justify-content:space-between ;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  border-top: 1px solid #333;
+}
+
+
+
+
+
+/* Footer Styles */
+footer {
+  background-color: #800020; /* Rich Burgundy color */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+  margin-top: 80px;
+ 
+}
+
+footer p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/* Responsive Styles */
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+  .column {
+    width: 33.33%; /* 3 columns per row */
+  }
+
+  .product-info h3 {
+    font-size: 1.1em;
+  }
+
+  .product-info p {
+    font-size: 0.9em;
+  }
+
+  .form-container {
+    width: 450px;
+  }
+
+  .form-header {
+    font-size: 1.4em;
+  }
+
+  .create-account-btn,
+  .sign-in-btn {
+    font-size: 1em;
+  }
+}
+
+/* For screens 992px and below (Tablets) */
+@media (max-width: 992px) {
+  header nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header hr {
+    width: 80%;
+  }
+
+  .column {
+    width: 50%; /* 2 columns per row */
+  }
+
+  .form-container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+  }
+
+  .form-header {
+    font-size: 1.3em;
+  }
+
+  .create-account-btn,
+  .sign-in-btn {
+    font-size: 0.9em;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
+}
+
+/* For screens 768px and below (Mobile devices) */
+@media (max-width: 768px) {
+  header .tit {
+    font-size: 2em;
+  }
+
+  .column {
+    width: 100%; /* 1 column per row */
+  }
+
+  .product-info {
+    font-size: 0.9em;
+  }
+
+  .text-content,
+  .image-content {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .contact-wrapper,
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .cartContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+/* For screens 400px and below (Small mobile devices) */
+@media (max-width: 400px) {
+  header .tit {
+    font-size: 1.5em;
+  }
+
+  .column {
+    width: 100%; /* 1 column per row */
+  }
+
+  .product-info h3 {
+    font-size: 1em;
+  }
+
+  .product-info p {
+    font-size: 0.8em;
+  }
+
+  .form-container {
+    width: 90%;
+    padding: 20px;
+    margin: 50px auto;
+  }
+
+  .form-header {
+    font-size: 1.2em;
+  }
+
+  .create-account-btn,
+  .sign-in-btn {
+    font-size: 0.9em;
+  }
+
+  .contact-info h2 {
+    font-size: 2em;
+  }
+
+  .contact-form h3 {
+    font-size: 1.7em;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .cartContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  footer {
+    font-size: 0.7em;
+  }
+}
